@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Forms</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class=title>Forms</h1>
+  <h2 class=warn>WARNING: DO NOT SUBMIT ANY FORM; IT WILL BREAK</h2>
+  <h3 class="return"><a href="index.html">Back to home</a></h3>
+  <p>This is what I learned about forms and form submissions in HTML! This includes any kind of user input that you'd experience on a website.</p>
+  <br>
+  <form>
+    <label for="user">Username:</label>
+    <input type="text" name="username" id="user">
+  </form>
+  <form>
+    <label for="pass">Password:</label>
+    <input type="password" name="password" id="pass">
+  </form>
+  <p>This is a sample log in set up for a website where one would input a username and password. There's a method that will block the text going into the password box so no one can peek in at it. Feel free to type things in!</p>
+
+  <form>
+    <input type="radio" name="choice" id="yes" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" name="choice" id="no" value="no">
+    <label for="no">No</Yes></label>
+  </form>
+  <p>This is a sample of a form that asks for a yes or no answer. There's nothing to select for them, but it demonstrates what it could look like. </p>
+
+  <form>
+    <label for="extra" id="extra">Type something here:</label>
+    <textarea name="extra" id="extra" rows="5" cols="30">
+    </textarea>
+  </form>
+
+  <p>This allows users to freely comment and type without being limited to certain options or anything. Can be used for things like comments, feedback, or other things.</p>
+
+  <form>
+      <label for="meter">Scale:</label>
+      <span>Bottom</span>
+      <input type="range" id="meter" step="1" min="0" max="10">
+      <span>Top</span>
+  </form>
+
+  <p>The last example I will show is a slider from the bottom to the top. This could be used for anything, such as review for a website for a volume slider.</p>
+</body>
