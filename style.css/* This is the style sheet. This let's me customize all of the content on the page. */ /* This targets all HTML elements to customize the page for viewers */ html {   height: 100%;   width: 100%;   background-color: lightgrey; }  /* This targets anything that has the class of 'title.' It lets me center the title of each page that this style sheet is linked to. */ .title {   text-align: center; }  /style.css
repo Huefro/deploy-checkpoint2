@@ -1,0 +1,52 @@
+/* This is the style sheet. This let's me customize all of the content on the page. */
+/* This targets all HTML elements to customize the page for viewers */
+html {
+  height: 100%;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+/* This targets anything that has the class of 'title.' It lets me center the title of each page that this style sheet is linked to. */
+.title {
+  text-align: center;
+}
+
+/* This targets every paragraph element to add indentation and changing the font. */
+p{
+  text-indent: 30px;
+  font-family: Georgia;
+}
+
+.return{
+  text-align: center;
+}
+
+.image1{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 30%
+}
+
+.desc{
+  font-family: Helvetica;
+  color: grey;
+  font-size: 14px;
+  text-align: center;
+}
+
+.purp{
+  color: purple;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+table{
+  background-color: white;
+}
+
+.warn{
+  color:red;
+  font-weight: bold;
+  text-align: center;
+}
